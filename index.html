@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Weather App</title>
+</head>
+<body>
+    <header></header>
+    <section>
+        <div class="card">
+            <span class="imgback">
+                <img id="condImg" src="" alt="">
+            </span>
+            
+            <div>
+                <div class="info hidden">
+                    <span class="location">City, Location</span>
+                    <h2 id="condText">Weather</h2>
+    
+                    <div class="temperature_container">
+                      <div class="temp">
+                        <span>The temperature is:</span>
+                        <p id="temp">50</p>
+                      </div>
+                      <div class="temp">
+                        <span>and it feels like:</span>
+                        <p id="feels_temp">50</p>
+                      </div>
+                    </div> 
+                    <button id="switch_fc" onclick="switchFC()">&deg;C</button>
+                </div>
+
+                <div class="loader">
+                    <!-- WIP Add a loading screen here -->
+                </div>
+                
+            </div>
+            
+            
+        </div> <!-- End Card div -->
+        
+
+    </section>
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
